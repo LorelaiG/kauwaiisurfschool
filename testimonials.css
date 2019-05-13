@@ -1,0 +1,42 @@
+#theTestimonials {
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  background: #000847;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  color: white;
+}
+#theTestimonials li {
+  display: none;
+}
+#theTestimonials ul {
+  list-style: none;
+}
+#theTestimonials p.author {
+  color: #00acee;
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+  margin: 10px;
+}
+#theTestimonials p.author a,
+#theTestimonials p.author a:hover,
+#theTestimonials p.author a:visited {
+  color: #00ccff;
+}
+
+#theTestimonials img {
+  width: 70px;
+  height: 90px;
+  float: left;
+  margin-top: -70px;
+}
+blockquote {
+  background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png)
+    0 0 no-repeat;
+  font-size: 20px;
+  padding: 10px 0 10px 50px;
+  text-align: left;
+}
